@@ -9,5 +9,5 @@ package com.app.json.optimizer;
  */
 public interface JsonOptimizer {
 
-	public <T> String optimizeJson(T object);
+	public <T> String optimizeJson(T object) throws Exception;
 }
